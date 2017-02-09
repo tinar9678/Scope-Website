@@ -1,9 +1,11 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
     <title> tina ryu </title>
     <style>
       @import url('https://fonts.googleapis.com/css?family=Coming+Soon|Shadows+Into+Light+Two');
+
 
       body {
         font-family: 'Coming Soon';
@@ -24,6 +26,7 @@
 
       h1 {
         margin-top: 0;
+        margin-bottom: 0px;
         text-align: center;
         font-size: 60px;
 
@@ -36,8 +39,27 @@
 
       .center {
         text-align: center;
+        
 
       }
+
+      .box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box:hover {
+  background: #ff7b29;
+}
+
+h3 { line-height: 30px; }
 
     </style>
   </head>
@@ -49,9 +71,9 @@
     </div>
 
      <img class="tinamain" src="images/welcome.jpg" width="700" height="400" >
+     <div class="box">Box</div>
 
-    <div class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/pV5RoaMKkIU" frameborder="0" ></iframe>
-   </div>
+      <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/pV5RoaMKkIU" frameborder="0" ></iframe>
+ 
   </body>
 </html>
