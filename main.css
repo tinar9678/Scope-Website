@@ -1,0 +1,71 @@
+    @import url('https://fonts.googleapis.com/css?family=Coming+Soon|Shadows+Into+Light+Two');
+
+
+    body {
+      font-family: 'Coming Soon';
+    }
+
+    .header {
+      background-color: #ffdae9;
+    }
+
+    .tinamain {
+     padding:1px;
+     border: 2px solid black;
+     display: block;
+     margin: 0 auto 30px
+
+
+   }
+
+   h1 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 60px;
+
+  }
+
+  .video {
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+  }
+
+  .center {
+    text-align: center;
+
+
+  }
+
+  .box {
+    background: #ffdae9;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 200px;
+    float: left;
+    display: inline-block;
+    margin:20px;
+  }
+  .box:hover {
+    background: #E6E6FA;
+  }
+
+  #qotl{
+    
+  }
+
+  h3 { line-height: 30px; }
+
+  .contact-info p {
+    margin: 0;
+    margin-bottom: 2px;
+  }
