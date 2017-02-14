@@ -17,20 +17,20 @@
      display: block;
      margin: 0 auto 30px
 
-
    }
 
    h1 {
     margin-top:-20px;
     text-align: center;
-    font-size: 60px;
+    font-size: 75px;
 
   }
 
   .video {
-    display: block;
+    /*display: block;*/
     padding-top: 20px;
-    margin: 0 auto;
+    padding-left: 40px;
+    /*margin: 0 auto;*/
     float: none;
     clear: both;
   }
@@ -87,19 +87,59 @@
       color: ##FFFFFF;
   }
 
-  .ed {
+  #ed {
     padding-top: 20;
     height: 160px;
     display: block;
     margin: 0 auto 30px;
   }
 
-  .exp {
+  #exp {
     display: block;
     margin: auto;
     width: 70%;
     margin-top: 60px;
   }
 
+  #design {
+    display: block;
+    margin: auto;
+    width: 55%;
+    margin-top: 20px;
+  }
 
+  #about{
+   background-color: #ffdae9;
+   height: 345px;
+    /*display: inline-block;*/
+  }
 
+  .aboutblurb {
+    float: center;
+    display: inline-block;
+    margin: auto;
+    /*text-align: center;*/
+    padding:15px;
+  }
+
+  #divider {
+    margin-top: 15px;
+    padding:10px;
+    font-size: 50;
+    text-align: center;
+    border: 5px solid #FFF8E7;
+    background-color:#ffdae9;
+  }
+
+  img.headshot{
+    border-radius: 50%;
+    height:150px;
+  }
+
+  .clear { clear:both; }
+
+  .icons {
+    display: block;
+    margin: 0 auto; 
+    width:800px
+  }
