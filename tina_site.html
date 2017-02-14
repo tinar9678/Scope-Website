@@ -3,11 +3,38 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="normalize.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
   <title> tina ryu </title>
 </head>
 
 <body>
+
+    <!-- Explain how to build navbar without Bootstrap, ul li float right -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- Explain target blank = new tab -->
+          <a href="http://www-scf.usc.edu/~csci201/" target="_blank">
+            <!-- Explain always use alt an image -->
+            <img
+              src="images/daisy.png"
+              alt="logo"
+              id="flower-logo"
+            />
+          </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <!-- DON'T WRITE THE JAVASCRIPT YET. IGNORE ONCLICK-->
+          <li class="active"><a href="#" onclick="clearAll()">Home</a></li>
+          <li><a href="#" onclick="click1()">About</a></li>
+          <li><a href="#" onclick="click2()">Portfolio</a></li>
+          <li><a href="#" onclick="click4()">Contact</a></li>
+
+        </ul>
+      </div>
+    </nav>
 
   <div class="header">
     <h1> tina ryu </h1>
@@ -17,14 +44,18 @@
   </div>
 
   <img class="tinamain" src="images/welcome.jpg" width="700" height="400" />
-    <span id="qotl">
-      <a href = "http://games.usc.edu/news/quiet-of-the-leaves-an-introspective-adventure/" style="text-decoration:none">
-        <span class="box"> Quiet of the Leaves</span>
-      </a>
-    </span>
+ <span class="box"> 
+  <img class="ed" src="images/gradcap.png" title="Education"/>
+</span>
 
-  <span class="box">Box</span>
+
+  <span class="box">
+    <img class="exp" src="images/code.png" title="Experience"/>
+  </span>
   <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/pV5RoaMKkIU" frameborder="0"></iframe>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
