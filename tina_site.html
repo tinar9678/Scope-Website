@@ -61,17 +61,36 @@
 
 
   <span class="icons">
-   <span class="box"> 
+   <span class="box" onclick="visible1()"> 
     <img id="ed" src="images/gradcap.png" title="Education"/>
    </span>
 
-    <span class="box">
+   <span id="eddescript" style="visibility: hidden;"> 
+    <span class="box"> 
+      <p> hello</p>
+    </span>
+   </span>
+
+    <span class="box" onclick="visible2()">
       <img id="exp" src="images/code.png" title="Experience"/>
     </span>
 
-    <span class="box">
+   <span id="expdescript" style="visibility: hidden;"> 
+    <span class="box"> 
+      <p> hello</p>
+    </span>
+   </span>
+
+    <span class="box" onclick="visible3()">
       <img id="design" src="images/brush.png" title="Design"/>
     </span>
+    
+   <span id="desdescript" style="visibility: hidden;"> 
+    <span class="box"> 
+      <p> hello</p>
+    </span>
+   </span>
+
   </span>
 
   <div class="clear"></div>
@@ -114,18 +133,27 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- <script>
-$(document).ready(function() {
+<script>
+  function visible1(){
+    var elem = document.getElementById('eddescript');
+    if(elem.style.visibility == 'hidden')
+      elem.style.visibility = 'visible';
+    else { elem.style.visibility = 'hidden';}
+  }
 
-  $("#ed").click(function () {
-      $(this).effect("bounce", { times:4, distance:200 }, 400);
-  })
-  .click();//Will trigger the click event on page load
-  $("#exp").click(function () {
-      $(this).effect("bounce", { times:4, distance:200 }, 400);
-  })
-  .click();//Will trigger the click event on page load
-});
-</script> -->
+    function visible2(){
+    var elem = document.getElementById('expdescript');
+    if(elem.style.visibility == 'hidden')
+      elem.style.visibility = 'visible';
+    else { elem.style.visibility = 'hidden';}
+  }
+
+    function visible3(){
+    var elem = document.getElementById('desdescript');
+    if(elem.style.visibility == 'hidden')
+      elem.style.visibility = 'visible';
+    else { elem.style.visibility = 'hidden';}
+  }
+</script>
 
 </html>

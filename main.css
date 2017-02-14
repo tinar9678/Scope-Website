@@ -45,13 +45,13 @@
     background: #ffdae9;
     border-radius: 6px;
     cursor: pointer;
-    height: 200px;
-    line-height: 200px;
+    height: 185px;
+    line-height: 185px;
     text-align: center;
     transition-property: background;
     transition-duration: 1s;
     transition-timing-function: linear;
-    width: 200px;
+    width: 185px;
     float: left;
     display: inline-block;
     margin:20px;
@@ -138,8 +138,3 @@
 
   .clear { clear:both; }
 
-  .icons {
-    display: block;
-    margin: 0 auto; 
-    width:800px
-  }
